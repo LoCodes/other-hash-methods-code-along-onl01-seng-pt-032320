@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  gorceries.key
+  gorceries.keys 
   #code your solution here!
 end
