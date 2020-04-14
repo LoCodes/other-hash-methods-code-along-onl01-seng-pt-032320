@@ -12,5 +12,5 @@ require 'pry'
 #   returns the grocery item that comes first alphebetically
 
 def get_the_min(groceries)
-  groceries.values.min
+  groceries.values.flatten.min
 end
